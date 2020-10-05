@@ -13,7 +13,7 @@ text-transform: uppercase;
 }
 
 a {
-    text-decoration: line-through;
+    text-decoration: none;
     color: #505050;
 }
 
@@ -38,4 +38,11 @@ a {
 .post_image {
     margin-bottom: 15px;
     border-radius: 50px;
+}
+.contacts_list {
+    list-style-type: square;
+    padding-left = 15px;
+}
+.contacts_list li a {
+    color: blue;
 }
